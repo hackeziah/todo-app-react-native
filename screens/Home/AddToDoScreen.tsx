@@ -43,7 +43,7 @@ export default function AddToDoScreen() {
                     <ScrollView contentContainerStyle={{ flexGrow: 1, padding: 10 }}>
                         <View style={styles.container}>
                             <View style={{ flex: 0, marginBottom: 20 }}>
-                                <Text style={styles.textStyle}>Title</Text>
+                                <Text style={styles.textStyle}>New Title</Text>
                                 <TextInput
                                     value={values.title}
                                     onChangeText={handleChange('title')}
